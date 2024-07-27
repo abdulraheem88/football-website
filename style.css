@@ -1,0 +1,29 @@
+
+.custom-navbar {
+    background-color: #005391 !important;
+    padding-top: 5px;   /* Adjust the top padding */
+    padding-bottom: 5px; /* Adjust the bottom padding */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: white !important; /* Use !important to override Bootstrap styles */
+    padding-top: 5px;    /* Adjust the top padding for the links */
+    padding-bottom: 5px; /* Adjust the bottom padding for the links */
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .custom-navbar .navbar-brand img {
+    height: 60px; /* Adjust the logo height if needed */
+  }
+
+  .navbar-toggler {
+    border-color: white !important; /* Change border color to white */
+  }
+
+  /* Custom styles for the navbar-toggler-icon */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+ 
